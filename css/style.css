@@ -2,6 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f1f1f1;
+  
 }
 
 
@@ -54,7 +55,10 @@ div {
 
 #last_image {
   width: 50%;
-  /* float: left; */
+  display: inline-block;
+  width: 480px;
+  text-align: justify;
+  vertical-align: middle;
   
 }
 
@@ -85,3 +89,15 @@ footer {
 }
 
 
+#last_article p {
+  overflow: scroll;
+  margin: 20px 0;
+}
+
+
+#last_article {
+  display: inline-block;
+  width: 420px;
+  text-align: justify;
+  vertical-align: middle;
+}
